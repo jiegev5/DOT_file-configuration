@@ -1,14 +1,17 @@
+"open the file: sudo vim /etc/vimrc
 filetype indent on
 set ai
 set mouse=a
-set incsearch
-set confirm
-set number
-set ignorecase
+set number  "show line number
+" Searching {{{
+set ignorecase          " ignore case when searching
+set incsearch           " search as characters are entered
+set hlsearch            " highlight all matches
 set smartcase
-set wildmenu
-set wildmode=list:longest,full
+" }}}
 set cursorline
+set showcmd             " show command in bottom bar
+set showmatch           " higlight matching parenthesis
 syntax on
 colorscheme industry
 
