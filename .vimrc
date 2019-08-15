@@ -2,6 +2,7 @@
 filetype indent on
 set ai
 set mouse=a
+set backspace=indent,eol,start     "restore backspace behavior
 set number  "show line number
 " Searching {{{
 set ignorecase          " ignore case when searching
