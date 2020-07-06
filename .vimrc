@@ -13,8 +13,9 @@ set smartcase
 set cursorline
 set showcmd             " show command in bottom bar
 set showmatch           " higlight matching parenthesis
+set nowrap
 syntax on
-colorscheme industry
+colorscheme desert
 
 
 
